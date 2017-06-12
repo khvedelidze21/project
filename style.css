@@ -1,0 +1,307 @@
+
+@import url('bootstrap.css');
+
+
+*{margin: 0; padding: 0;}
+a:hover{text-decoration: none;}
+
+body{background: #f8f8f8;}
+
+
+ul{list-style-type: none;}
+
+h2{font-family: "BPG Arial Caps 2010"; font-size:28px; text-align: center;}
+h2 span{display: block; width: 140px; height: 2px; margin:16px auto; background: #ff0000;}
+
+
+
+
+
+
+
+
+
+
+#serchbox{
+width: 100%;
+float: left;
+padding: 0;
+margin: 0;
+height: 600px;
+background: #5855d6;
+background: -webkit-linear-gradient(left, #5855d6, #2becce);
+background: -o-linear-gradient(right, #5855d6, #2becce);
+background: -moz-linear-gradient(right, #5855d6, #2becce);
+background: linear-gradient(to right, #5855d6, #2becce);}
+
+
+
+
+
+
+
+
+#importantevent{
+float: left;
+width: 100%;
+margin:-50px 0 0 0;
+padding: 0;
+position: relative;
+z-index: 5;}
+
+#importantevent .row{
+margin: 0 50px;
+padding:0; 
+border-radius: 10px;
+background: #fff;
+box-shadow: 0 0 40px #7f7f7f;}
+
+
+.ivent_photo{display: block; width: 100%; float: left;}
+
+#importantevent .detals{
+background: #fafafa;
+width: 100%;
+float: left;
+position: relative;}
+
+#importantevent .date{
+background: #f2f2f2;
+width: 80px;
+height: 80px;
+float: left;
+font-family: "BPG LE Studio 02 Caps";
+text-align: center;}
+
+.date .day{font-size: 20px; padding: 20px 0 0 0; display: block;}
+.date .clock{font-size: 16px;}
+
+#importantevent .title{font-family: "BPG Arial Caps 2010"; text-align: center; padding: 13px 105px 7px 0;   }
+#importantevent .title h3{font-size: 16px; display: inline;}
+#importantevent .title h3 a{color: #505050;}
+
+#importantevent .company_logo{
+width: 90px;
+height: 90px;
+right: 15px;
+bottom: 15px;
+position: absolute;}
+
+#importantevent .company_logo a{display: block; border-radius: 10px; overflow: hidden;}
+
+
+
+
+
+
+ 
+
+.ads{width: 100%;  height: 130px; float: left; margin: 0px; padding: 0;}
+.ads1170{margin:auto; max-width: 1170px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#eventtoday{padding: 0;}
+#eventtoday .col-md-8{padding:0;}
+#eventtoday .col-md-8 .col-md-6{margin: 0 0 30px 0; padding: 0;}
+
+#eventtoday .col-md-8 .col-md-6 .ivent_binder{padding: 0 15px;} 
+#eventtoday .col-md-8 .col-md-6 .ivent_photo{width: 100%; float: left; display: block; } 
+
+
+#eventtoday .col-md-4{padding:0;}
+#eventtoday .col-md-4 .binder{padding: 0 15px;}
+
+
+
+.ivent_binder .detals{
+background: #ededed;
+position: relative;
+min-height: 80px;
+width: 100%;
+float: left;}
+
+.coompany_time{
+position: absolute;
+top: -20px;
+left: 10px; 
+width: 60px; 
+float: left; }
+
+.ivent_binder .coompany_time span{padding-top: 5px; display: block; text-align: center;}
+
+.coompany_time a{display: block; width: 60px; height: 60px; overflow: hidden; border-radius: 10px;}
+.coompany_time a img{display: block; width: 60px; height: 60px; overflow: hidden; border-radius: 10px;}
+
+#eventtoday .title{display: inline; padding: 0px 0 0 70px; float: left; text-align: center; }
+#eventtoday .title h3{text-align: center; font-family: "BPG Arial Caps 2010"; font-size: 16px; }
+#eventtoday .title h3 a{color: #505050; }
+#eventtoday .ivent_binder:hover h3 a{color: #ff0000; }
+
+
+
+
+
+
+
+#eventtoday .col-md-4 .header{
+height: 62px;
+background: #5855d6; 
+background: -webkit-linear-gradient(left, #5855d6, #2becce);
+background: -o-linear-gradient(right, #5855d6, #2becce); 
+background: -moz-linear-gradient(right, #5855d6, #2becce);
+background: linear-gradient(to right, #5855d6, #2becce); 
+font-size: 22px; font-family: "BPG Arial Caps 2010"; text-align: center;}
+
+#eventtoday .col-md-4 .header h2{
+float: left;
+width: 100%;
+text-align: center; font-size: 22px; color: #fff;}
+
+.top_company_list{
+float: left;
+padding: 0 20px;
+font-size: 16px;
+background: #eceff1;
+font-family: "BPG Arial Caps 2010"; }
+
+.top_company_list li{
+width: 100%;
+float: left;
+line-height: 50px;
+font-size: 16px;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #d8e0e6; }
+
+.top_company_list li:first-child{border-top: none;}
+.top_company_list li:last-child{border-bottom: none;}
+.top_company_list li:hover{ background: #d8e0e6; }
+.top_company_list li a{color: #505050;}
+.top_company_list li a span{font-size: 22px; padding:0 20px 0 5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dayoffer .row .col-md-4{background: #ff0000; padding: 0; }
+#dayoffer .row .col-md-4 .offer_binder{background: #0000ff; overflow: hidden; padding: 20px 0; }
+
+
+
+
+.offer_photo{display: block; width: 100%; float: left;}
+
+#dayoffer .detals{
+position: relative;
+width: 100%; float: left;
+min-height: 90px;
+background: #ffffcc;
+font-family: "BPG Arial Caps 2010";}
+
+#dayoffer .title{display: inline; float: left; margin: 0; padding:0 90px 0 0; }
+
+#dayoffer .title h3{font-size: 16px;  text-align: center; margin: 0; padding: 10px 0 0 0;}
+#dayoffer .title h3 a{color: #454545; }
+
+#dayoffer .percent_price{
+width: 90px;
+right: 0;
+background: #000;
+position: absolute;
+display: block; }
+
+.percent_price span{
+display: block;
+width: 100%;
+height: 45px;
+line-height: 45px;
+font-size: 25px;
+text-align: center; }
+
+.percent{background: #f5f5f5; color: #e53935;}
+.price{background: #e9e9e9; color: #505050;}
+
+
+
+
+
+
+
+
+
+
+#dayoffer .row .col-md-6{padding: 0;}
+
+
+
+
+
+
+
+#footer{
+background: #5855d6;
+background: -webkit-linear-gradient(left, #5855d6, #2becce);
+background: -o-linear-gradient(right, #5855d6, #2becce);
+background: -moz-linear-gradient(right, #5855d6, #2becce); 
+background: linear-gradient(to right, #5855d6, #2becce);}
+
+#footer .container{border-bottom: 1px solid #ffffff;}
+
+#footer ul li a{color: #fff;}
+
+.sociall{font-size: 22px;}
+.sociall li{float: left; margin: 0 5px;}
+
+.copyright{
+color: #fff;
+text-align: center;
+font-family: "BPG Arial Caps 2010";
+text-transform: uppercase;
+font-size: 16px;}
+
+.createdby{
+font-family: "BPG Arial Caps 2010";
+text-transform: uppercase;
+font-size: 16px;
+color: #fff;
+text-align: right;}
+
+.createdby a{
+background: #df800a;
+padding: 0 5px;
+color: #fff;}
